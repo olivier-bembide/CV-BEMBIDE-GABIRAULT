@@ -12,7 +12,8 @@ body {
   line-height: 18.4px; }
 
 #sec-gauche {
-  margin-right: 20px; }
+  margin-right: 20px;
+  background-color: #f2f2f2; }
 
 .wrapper {
   display: grid;
