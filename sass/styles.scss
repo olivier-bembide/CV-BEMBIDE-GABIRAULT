@@ -1,9 +1,184 @@
+@import 'variables';
 
-@import "variables";
-body{
-  font-family:'Open Sans', sans-serif;
-  font-size: 16px;
+*,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-.fas{
-  color: $couleur-star;
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  line-height: 18.4px;
+}
+
+#sec-gauche {
+  margin-right: 20px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.coordonnees {
+  display: flex;
+}
+
+.coordonnees,
+.competences,
+.expertise-metier,
+.outils,
+.identite {
+  margin-bottom: 1.2em;
+}
+
+.info-titre,
+.formations,
+.experiences,
+.presentation {
+  margin-bottom: 1.1em;
+}
+
+.competences h2,
+.expertise-metier h2,
+.outils h2,
+.presentation h2, .hob, .exp, .forma {
+  border-bottom: 2px solid black;
+  line-height: 25px;
+}
+
+.code,
+.framework,
+.cms {
+  margin-bottom: 1.5em;
+}
+
+.code li,
+.framework li,
+.cms li,
+.expertise-metier li,
+.outils li {
+  line-height: 25px;
+}
+
+h2,
+h3,
+h4 {
+  margin-bottom: 0.5em;
+}
+
+.coord-gauche span {
+  display: block;
+}
+
+.formations {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.forma-gauche,
+.exp-gauche {
+  margin-right: 10px;
+}
+
+.experiences {
+  display: flex;
+}
+
+.wrap-reference {
+  display: flex;
+  justify-content: space-between;
+}
+
+.titre-forma {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.pos2 {
+  position: relative;
+  top: 57px;
+}
+
+.pos3 {
+  position: relative;
+  top: 115px;
+}
+
+.pos4 {
+  position: relative;
+  top: 155px;
+}
+
+.pos5 {
+  position: relative;
+  top: 205px;
+}
+
+.pos7 {
+  position: relative;
+  top: 40px;
+}
+
+.pos8 {
+  position: relative;
+  top: 95px;
+}
+
+.hobbies-references {
+  margin-bottom: 1.7em;
+}
+
+.forma-droite p,
+.exp-droite p {
+  margin-bottom: 1.4em;
+}
+
+.info-titre {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.plus-info {
+  display: flex;
+}
+
+.fa-linkedin {
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.exp,
+.hob {
+  position: relative;
+  bottom: 10px;
+}
+
+.code ul li, .framework li, .cms li{
+  display: flex;
+  justify-content: space-between;
+}
+
+.code h3, .cms h3, .framework h3{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.ref-gauche li{
+  list-style-type: none;
+}
+
+.titre-forma{
+  font-weight: bold;
 }
