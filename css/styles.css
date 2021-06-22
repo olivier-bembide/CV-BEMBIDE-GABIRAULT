@@ -43,7 +43,10 @@ img {
 .competences h2,
 .expertise-metier h2,
 .outils h2,
-.presentation h2, .hob, .exp, .forma {
+.presentation h2,
+.hob,
+.exp,
+.forma {
   border-bottom: 2px solid black;
   line-height: 25px; }
 
@@ -112,7 +115,7 @@ h4 {
   top: 95px; }
 
 .hobbies-references {
-  margin-bottom: 1.7em; }
+  margin-bottom: 1.5em; }
 
 .forma-droite p,
 .exp-droite p {
@@ -134,11 +137,15 @@ h4 {
   position: relative;
   bottom: 10px; }
 
-.code ul li, .framework li, .cms li {
+.code ul li,
+.framework li,
+.cms li {
   display: flex;
   justify-content: space-between; }
 
-.code h3, .cms h3, .framework h3 {
+.code h3,
+.cms h3,
+.framework h3 {
   font-size: 20px;
   font-weight: bold; }
 
@@ -147,5 +154,11 @@ h4 {
 
 .titre-forma {
   font-weight: bold; }
+
+.fa-heart {
+  color: red;
+  position: relative;
+  right: 10px;
+  top: 8px; }
 
 /*# sourceMappingURL=styles.css.map */
