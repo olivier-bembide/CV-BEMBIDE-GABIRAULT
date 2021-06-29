@@ -38,7 +38,6 @@ img {
 .coordonnees,
 .competences,
 .expertise-metier,
-.outils,
 .identite {
   margin-bottom: 1.2em;
 }
@@ -47,7 +46,7 @@ img {
 .formations,
 .experiences,
 .presentation {
-  margin-bottom: 1.1em;
+  margin-bottom: 0.65em;
 }
 
 .competences h2,
@@ -56,15 +55,17 @@ img {
 .presentation h2,
 .hob,
 .exp,
-.forma {
+.forma,
+.ref-gauche h4,
+.ref-droite h4 {
   border-bottom: 2px solid black;
-  line-height: 25px;
+  line-height: 23px;
 }
 
 .code,
 .framework,
 .cms {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.3em;
 }
 
 .code li,
@@ -78,7 +79,7 @@ img {
 h2,
 h3,
 h4 {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.480em;
 }
 
 .coord-gauche span {
@@ -112,17 +113,17 @@ h4 {
 
 .pos2 {
   position: relative;
-  top: 40px;
+  top: 33px;
 }
 
 .pos3 {
   position: relative;
-  top: 95px;
+  top: 65px;
 }
 
 .pos4 {
   position: relative;
-  top: 135px;
+  top: 75px;
 }
 
 .pos5 {
@@ -130,23 +131,42 @@ h4 {
   top: 190px;
 }
 
+.pos6 {
+  position: relative;
+  top: 2px;
+}
+
 .pos7 {
   position: relative;
-  top: 40px;
+  top: 10px;
 }
 
 .pos8 {
   position: relative;
-  top: 95px;
+  top: 68px;
+}
+
+.pos9 {
+  position: relative;
+  top: 2px;
+}
+
+.pos11 {
+  position: relative;
+  top: 38px;
 }
 
 .hobbies-references {
-  margin-bottom: 1.5em;
+  margin-bottom: 0.6em;
 }
 
 .forma-droite p,
+.experience p {
+  margin-bottom: 1em;
+}
+
 .exp-droite p {
-  margin-bottom: 1.4em;
+  margin-bottom: 0.7em;
 }
 
 .info-titre {
@@ -156,9 +176,15 @@ h4 {
 
 .plus-info {
   display: flex;
+  margin-bottom: 0.2em;
 }
 
-.fa-linkedin {
+.plus-info2 {
+  display: flex;
+}
+
+.fa-linkedin,
+.fa-github {
   margin-right: 20px;
   font-size: 20px;
 }
@@ -178,12 +204,13 @@ h4 {
 
 .code h3,
 .cms h3,
-.framework h3 {
+.framework h3,
+.outils h3 {
   font-size: 20px;
   font-weight: bold;
 }
 
-.ref-gauche li {
+.ref-gauche li, .ref-droite li {
   list-style-type: none;
 }
 
@@ -196,4 +223,18 @@ h4 {
   position: relative;
   right: 10px;
   top: 8px;
+}
+
+.experience {
+  display: flex;
+}
+
+.ref-droite li {
+  line-height: 25px;
+}
+
+.ref-gauche h4,
+.ref-droite h4 {
+  font-size: 20px;
+  border-bottom: 2px solid black;
 }
