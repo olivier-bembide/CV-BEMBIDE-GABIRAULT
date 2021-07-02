@@ -31,13 +31,13 @@ img {
 .competences,
 .expertise-metier,
 .identite {
-  margin-bottom: 1.2em; }
+  margin-bottom: 1.1em; }
 
 .info-titre,
 .formations,
 .experiences,
 .presentation {
-  margin-bottom: 0.65em; }
+  margin-bottom: 0.50em; }
 
 .competences h2,
 .expertise-metier h2,
@@ -49,24 +49,24 @@ img {
 .ref-gauche h4,
 .ref-droite h4 {
   border-bottom: 2px solid black;
-  line-height: 23px; }
+  line-height: 21px; }
 
 .code,
 .framework,
 .cms {
-  margin-bottom: 1.3em; }
+  margin-bottom: 1em; }
 
 .code li,
 .framework li,
 .cms li,
 .expertise-metier li,
 .outils li {
-  line-height: 25px; }
+  line-height: 24px; }
 
 h2,
 h3,
 h4 {
-  margin-bottom: 0.480em; }
+  margin-bottom: 0.460em; }
 
 .coord-gauche span {
   display: block; }
@@ -125,10 +125,18 @@ h4 {
 
 .pos11 {
   position: relative;
-  top: 38px; }
+  top: 56px; }
+
+.pos12 {
+  position: relative;
+  top: 55px; }
+
+.pos13 {
+  position: relative;
+  top: 55px; }
 
 .hobbies-references {
-  margin-bottom: 0.6em; }
+  margin-bottom: 0.55em; }
 
 .forma-droite p,
 .experience p {
@@ -181,7 +189,7 @@ h4 {
   color: red;
   position: relative;
   right: 10px;
-  top: 8px; }
+  top: 7px; }
 
 .experience {
   display: flex; }
@@ -193,5 +201,14 @@ h4 {
 .ref-droite h4 {
   font-size: 20px;
   border-bottom: 2px solid black; }
+
+.maj {
+  text-transform: uppercase; }
+
+.italic {
+  font-style: italic; }
+
+.ident {
+  font-size: 20px; }
 
 /*# sourceMappingURL=styles.css.map */
