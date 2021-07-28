@@ -49,7 +49,7 @@ img {
 .ref-gauche h4,
 .ref-droite h4 {
   border-bottom: 2px solid black;
-  line-height: 25px; }
+  line-height: 24px; }
 
 .code,
 .framework,
@@ -109,19 +109,19 @@ h4 {
 
 .pos6 {
   position: relative;
-  top: 2px; }
+  top: 9px; }
 
 .pos7 {
   position: relative;
-  top: 10px; }
+  top: 17px; }
 
 .pos8 {
   position: relative;
-  top: 68px; }
+  top: 71px; }
 
 .pos9 {
   position: relative;
-  top: 2px; }
+  top: 10px; }
 
 .pos11 {
   position: relative;
@@ -140,7 +140,7 @@ h4 {
 
 .forma-droite p,
 .experience p {
-  margin-bottom: 0.70em; }
+  margin-bottom: 0.7em; }
 
 .exp-droite p {
   margin-bottom: 0.6em; }
@@ -179,7 +179,8 @@ h4 {
   font-size: 20px;
   font-weight: bold; }
 
-.ref-gauche li, .ref-droite li {
+.ref-gauche li,
+.ref-droite li {
   list-style-type: none; }
 
 .titre-forma {
