@@ -60,7 +60,7 @@ img {
 .framework li,
 .cms li,
 .expertise-metier li,
-.outils li {
+.outils li, .database li {
   line-height: 24px; }
 
 h2,

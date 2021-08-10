@@ -64,7 +64,7 @@ img {
 
 .code,
 .framework,
-.cms {
+.cms, .database {
   margin-bottom: 1em;
 }
 
@@ -72,7 +72,7 @@ img {
 .framework li,
 .cms li,
 .expertise-metier li,
-.outils li {
+.outils li, .database li {
   line-height: 24px;
 }
 
@@ -207,7 +207,7 @@ h4 {
 
 .code ul li,
 .framework li,
-.cms li {
+.cms li, .database li {
   display: flex;
   justify-content: space-between;
 }
@@ -219,6 +219,7 @@ h4 {
   font-size: 20px;
   font-weight: bold;
 }
+
 
 .ref-gauche li,
 .ref-droite li {
